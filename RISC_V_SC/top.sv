@@ -173,7 +173,7 @@ module top #(
         .clk (clk),
         .dmem_req (dmem_req),
         .dmem_wr_en (dmem_wr_en),
-        .dmem_data_size (dmem_data_size),
+        .dmem_data_size (dmem_size),
         .dmem_addr (dmem_addr),
         .dmem_wr_data (dmem_wr_data),
         .dmem_zero_extend (dmem_zero_extend),
